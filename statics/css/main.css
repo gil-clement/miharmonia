@@ -1657,7 +1657,7 @@
 	#banner {
 		position: relative;
 		background-color: rgba(21, 28, 23, 0.85);
-		background-image: url("images/overlay.png"), url("images/highlight.png");
+		background-image: url("images/nadrilylogo.jpg"), url("images/highlight.png");
 		background-position: top left, center center;
 		background-size: auto, 100% 250%;
 		background-repeat: repeat, no-repeat;
@@ -1913,7 +1913,7 @@
 				}
 
 					#header .logo div {
-						background: #fff;
+						background: #fff;  
 						position: relative;
 						display: inline-block;
 						padding: 0 1.5em 0 1.5em;
