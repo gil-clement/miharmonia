@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+{% load static %}
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="{% static 'css/base_style.css'%}" />
+	<title>  La llave de Nadrily </title>
+	<!--script to fix the th HTML5 missing balise in IE inf 9 -->
+	<!--[if lt IE 9]>
+<script
+src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head>
+<body>	
+	<div id="main_wrapper">
+		<header>
+			<div id="main_title">
+				<img src="{% static 'images/nadrily_logo.jpg'%}" alt="Logo of la llave de Nadrily" id="logo" />
+				<h1> La llave de Nadrily</h1>
+				<h2>Todo para su Harmonia </h2>
+			</div>
+	
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Mis productos</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Wiki</a></li>
+					<li><a href="#">Contact</a></li>
+
+
+				</ul>
+			</nav>
+		</header>
+		<!--Article of the moment are insrted in a section -->
+		<section id="topnews">
+			<article id="ban_top_txt">
+				<h1>Esto es mi producto favorito </h1>
+				<a href="#" class="ban_top_link"> es mi producto del momento <img src =" {% static 'images/logo.jpg'%}" alt="producto" /></a>
+
+			</article>
+
+			<article id="ban_top_txt">
+				<h1>Esto es mi secundo  producto favorito </h1>
+				<a href="#" class="ban_top_link"> es mi secundo producto del momento <img src =" {% static 'images/logo.jpg'%}" alt="producto" /></a>
+			</article>
+
+		</section>
+		
+		<!--Bloc aside that describe what i do -->
+		<aside id="about">
+			<h1>Quien Soy</h1>
+			<h2> Creaciones de mantas, cojines terapéuticos y de herramientas contra la ansiedad.
+El tiempo de producción es de 1 a 2 semanas.</h2> 
+			<h3> Envíos a regiones e internacionales.</h3>
+		</aside>
+		
+		<footer>
+		<h1>Copyrigth La LLave de Nadrily</h1>
+		</footer>
+
+{# comment invisible in the html rendering #}
+<!--  comment visible in the html rendering -->
+
+{#{% block test %}{% endblock test %}#}
+			
+    		
+		
+
+	</div>
+</html>
