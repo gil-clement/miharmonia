@@ -25,7 +25,7 @@ SECRET_KEY = 'i^c(wry-jg3kf5dq6+7_!pqej60=3q=$x_o&+=1-^^c9r@aol5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['nadrily.pythonanywhere.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
